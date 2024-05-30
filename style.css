@@ -1,0 +1,853 @@
+@font-face {
+    font-family: 'PatsySans';
+    src: url('../fonts/PatsySans.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Pribambas';
+    src: url('../fonts/Pribambas.ttf') format('truetype');
+}
+
+body {
+    font-family: "Comfortaa", sans-serif;
+    font-style: normal;
+    font-size: 24px;
+
+    background-color: #F7FBFE;
+    background-image: url('../img/bg-1.jpg');
+    background-repeat: no-repeat;
+    justify-content: center; 
+}
+
+header {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    justify-content: center; 
+}
+
+nav {
+    font-family: 'Pribambas', sans-serif;
+    display: flex;
+}
+
+p {
+    line-height: 150%;
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;}
+
+h1 {
+    font-family: 'PatsySans', sans-serif;
+    font-size: 64px;
+    font-weight: normal;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Pribambas', sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    width: 40px;
+    image-color: white;
+}
+
+.logo a {
+    font-family: 'PatsySans', sans-serif;
+    font-size: 47px;
+    margin-left: 30px;
+    color: white;
+}
+
+header nav {
+    padding-left: 350px;
+    padding-top: 10px;
+}
+
+header nav a {
+    padding-right: 62px;
+    font-size: 32px; 
+}
+
+header nav a:last-child {
+    padding: 0;
+}
+
+
+
+
+button {
+    background: #9FB840;
+    border: 0;
+    font-family: 'Pribambas', sans-serif;
+    font-size: 48px;
+    color: black; 
+    cursor: pointer; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+button img {
+    height: 30px;
+    width: 32px;
+}
+
+button:hover {
+    background-color: #C4DB6F;
+    font-size: 51px;
+}
+
+/*КНОПКА ПОМОЧЬ КОТИКУ*/
+
+.help-cat {
+    display: flex;
+
+    width: 380px;
+    height: 70px;
+
+    border-radius: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    margin-top: 15px;
+
+    align-items: center; 
+    justify-content: center; 
+    gap: 9px; 
+
+}
+
+.help-cat:hover {
+    display: flex;
+
+    width: 407px;
+    height: 75px;
+
+    border-radius: 16px;
+    padding-left: 26px;
+    padding-right: 26px;
+
+    margin-top: 10px;
+
+    align-items: center; 
+    justify-content: center; 
+    gap: 9px; 
+
+}
+
+.hello .help-cat img {
+    width: 32px;
+    height: 34px;
+}
+
+.help-cat p {
+    margin-bottom: 18px;
+}
+/*КОНЕЦ КНОПКИ*/
+
+
+.hello {
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.hello h1 {
+    width: 650px;
+}
+
+.hello img {
+    height: 420px;
+    width: 380px;
+
+    border-radius: 35px;
+}
+
+.hello .image {
+    margin-right: 25px;
+}
+
+.hello .image-flex {
+    display: flex;
+}
+
+.hello .first{
+    margin-right: 25px;
+}
+
+.hello .third{
+    margin-left: 270px;
+    margin-top: 25px;
+    height: 255px;
+    width: 515px;
+}
+
+.hello .txt #describe {
+    margin-top: 30px;
+
+    width: 785px;
+}
+
+
+
+.point {
+    display: flex;
+    justify-content: center;
+    padding-top: 170px;
+}
+
+.point .txt {
+    padding-right: 25px;
+    padding-top: 63px;
+}
+
+.point h1 {
+    width: 920px;
+}
+
+.point img{
+    border-radius: 35px;
+    height: 650px;
+}
+
+.point .txt #describe {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    width: 920px;
+}
+
+.kids {
+    margin-top: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    margin-top: 30px;
+}
+
+
+.pet-card {
+    margin-right: 25px;
+    width: 380px;
+}
+
+.pet-card#last {
+    margin-right: 0;
+}
+
+.pet-card img {
+    width: 380px;
+    border-radius: 35px;
+}
+
+.pet-card h2 {
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.kids .buttons {
+    display: flex;
+    margin-top: 40px;
+}
+
+.kids .buttons img {
+    width: 40px;
+}
+
+.kids .arrow {
+    width: 110px;
+    height: 60px;
+
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.kids .arrow#left {
+    margin-right: 25px;
+}
+
+.invite {
+    background-color: #D2E1E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 160px;
+
+    margin-top: 70px;
+}
+
+.invite button{
+    font-size: 40px;
+    background-color: #9AB9C9;
+    height: 60px;
+    margin-top: 10px;
+
+    border-radius: 15px;
+}
+
+.invite button:hover{
+    font-size: 40px;
+    height: 60px;
+    background-color: #C4DB6F;
+
+    border-radius: 15px;
+}
+
+.invite button a {
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.invite .google-form {
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.invite .catalogue {
+    margin-left: 7px;
+}
+
+.help h1{
+    margin-left: 145px;
+    margin-top: 65px;
+    margin-bottom: 40px;
+}
+
+.big-blocks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-blocks h2 {
+    font-size: 48px;
+}
+
+.big-blocks .big {
+    background-color: #D2E1E9;
+    border-radius: 35px;
+
+    height: 380px;
+    width: 710px;
+
+    padding-left: 75px;
+    padding-top: 65px;
+
+    margin-right: 25px;
+}
+
+.big-blocks .big:hover {
+    background-color: #EBF3C9;
+}
+
+.big-blocks .big:last-child{
+    margin-right: 0;
+}
+
+.big-blocks .big p#describe {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    width: 465px;
+}
+
+.small-blocks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 25px;
+}
+
+.small-blocks .small {
+    width: 305px;
+    height: 225px;
+    padding-left: 75px;
+    padding-top: 25px;
+
+    margin-right: 25px;
+
+    background-color: #D2E1E9;
+    border-radius: 35px;
+}
+
+.small-blocks .small:last-child {
+    margin-right: 0;
+}
+
+.small-blocks .small:hover {
+    background-color: #EBF3C9;
+}
+
+.small-blocks .small h2 {
+    margin-bottom: 40px;
+}
+
+.small-blocks .small button {
+    width: 200px;
+}
+
+.donate {
+    margin-top: 170px;
+}
+
+.system {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.system .way {
+    width: 345px;
+    height: 125px;
+
+    background-color: #D2E1E9;
+
+    border-radius: 20px;
+
+    margin-right: 25px;
+
+    padding-top: 25px;
+    padding-left: 35px;
+}
+
+.system .way:last-child {
+    margin-right: 0;
+}
+
+.system .way:hover {
+    background-color: #EBF3C9;
+}
+
+
+.system .way .pay {
+    margin-top: 20px;
+}
+
+.donate {
+    margin-top: 170px;
+}
+
+.donate h1 {
+    margin-left: 145px;
+    margin-bottom: 60px;
+}
+
+.donate .price-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.donate .price-line .price {
+    background-color: #D2E1E9;
+    color: #9AB9C9;
+    width: 245px;
+    height: 100px;
+    border-radius: 15px;
+
+    margin-right: 25px;
+}
+
+.donate .price-line .price:hover {
+    background-color: #EBF3C9;
+    color: #9FB840;
+
+    font-size: 48px;
+}
+
+.donate .price-line .price.clicked {
+    background-color: #C4DB6F;
+    color: black;
+}
+
+.donate .price-line .price p {
+    margin-bottom: 14px;
+}
+
+.donate .price-line .price:last-child {
+    margin-right: 0px;
+}
+
+.donate input {
+    width: 1555px;
+    height: 86px;
+    border-radius: 15px;
+
+    border: 2px solid #9AB9C9;
+    background-color: #D2E1E9;
+
+    font-family: "Pribambas", sans-serif;
+    font-style: normal;
+    font-size: 48px;
+
+    margin-top: 20px;
+    padding-left: 35px;
+    padding-bottom: 10px;
+}
+
+.donate #custom-input::placeholder {
+    font-family: "Comfortaa", sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    color: #9AB9C9;
+}
+
+.donate #custom-input::focus {
+    font-family: "Comfortaa", sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    color: #9AB9C9;
+
+    border: 2px solid #9AB9C9;
+}
+
+.donate .input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.donate .donate-button {
+    width: 515px;
+    height: 100px;
+
+    border-radius: 20px;
+
+}
+
+.donate .donate-button p{
+    margin-top: 0px;
+}
+
+
+.donate .donate-button:hover {
+    font-size: 48px;
+}
+
+.donate .frequency {
+    display: flex;
+    width: 1005px;
+    height: 100px;
+
+    border-radius: 25px;
+
+    background-color: #D2E1E9;
+    gap: 80px;
+    padding-left: 50px;
+
+    margin-left: 25px;
+}
+
+.volounteer {
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.volounteer .txt{
+    margin-bottom: 20px;
+}
+
+.volounteer h1 {
+    width: 732px;
+}
+.volounteer img {
+    width: 650px;
+    border-radius: 35px;
+
+    margin-right: 25px;
+}
+
+.volounteer input {
+    background-color: #D2E1E9;
+    border: 0;
+    font-family: "Pribambas", sans-serif;
+    font-style: normal;
+    font-size: 24px;
+
+    width: 893px;
+    height: 68px;
+
+    border-radius: 20px;
+    padding-left: 25px;
+
+    margin-top: 20px;
+}
+
+.volounteer input::focus {
+    font-family: "Pribambas", sans-serif;
+    font-style: normal;
+    font-size: 48px;
+    border: 0;
+}
+
+.volounteer input::placeholder {
+    font-family: "Comfortaa", sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    color: #9AB9C9;
+}
+
+.volounteer .input-twice {
+    display: flex;
+    gap: 25px;
+}
+
+.volounteer .input-twice input:first-child {
+    width: 488px;
+}
+
+.volounteer .input-twice input:last-child {
+    width: 353px;
+}
+
+.volounteer .about {
+    height: 238px;
+}
+
+
+.volounteer .help-volounteer {
+    width: 380px;
+    height: 70px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    border-radius: 15px;
+}
+
+.volounteer .help-volounteer:hover {
+    height: 75px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.volounteer .help-volounteer img {
+    width: 32px;
+    height: 36px;
+
+    margin-left: 9px;
+}
+
+
+.volounteer .help-volounteer p {
+    margin-bottom: 17px;
+}
+
+.volounteer .buttons {
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.volounteer .buttons p#warning{
+    width: 515px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #9AB9C9;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 155px;
+}
+
+footer .logo {
+    display: flex;
+    gap: 14px;
+
+    color: black;
+
+}
+
+footer .logo h1 {
+    font-size: 42px;
+}
+
+footer p, ul {
+    font-family: 'Pribambas', sans-serif;
+    font-size: 32px;
+}
+
+footer .logo img {
+    width: 52px;
+    height: 40px;
+
+    margin-top: 5px;
+}
+
+footer .media {
+    margin-top: 30px;
+}
+ 
+footer .media img{
+    margin-right: 35px;
+}
+
+footer .menu {
+
+
+    margin-left: 94px;
+
+    display: flex;
+}
+
+footer .menu li {
+    margin-bottom: 15px;
+}
+
+footer .menu ul:last-child {
+    margin-left: 32px;
+}
+
+footer .contact p {
+    font-family: 'Pribambas', sans-serif;
+    font-size: 32px;
+
+    margin-bottom: 4px;
+}
+
+footer .contact {
+    margin-bottom: 11px;
+    margin-left: 75px;
+}
+
+footer .work {
+    text-align: right;
+    margin-left: 80px;
+    margin-bottom: 19px;
+}
+
+footer .work .adress {
+    margin-bottom: 4px;
+}
+
+/*ЧЕКБОКСЫ первые*/
+
+.custom-radio {
+    display: none;
+}
+
+.custom-radio-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.custom-radio-label .unchecked,
+.custom-radio-label .checked,
+.custom-radio-label .hover {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    display: none;
+}
+
+.custom-radio-label .unchecked {
+    display: inline-block;
+}
+
+.custom-radio:checked + .custom-radio-label .unchecked {
+    display: none;
+}
+
+.custom-radio:checked + .custom-radio-label .checked {
+    display: inline-block;
+}
+
+.custom-radio-label:hover .unchecked,
+.custom-radio-label:hover .checked {
+    display: none;
+}
+
+.custom-radio-label:hover .hover {
+    display: inline-block;
+}
+
+/* Добавляем правило, чтобы отключить эффект hover для выбранного элемента */
+.custom-radio:checked + .custom-radio-label:hover .checked {
+    display: inline-block;
+}
+
+.custom-radio:checked + .custom-radio-label:hover .hover {
+    display: none;
+}
+
+/*ЧЕКБОКСЫ вторые*/
+
+.frequency .custom-checkbox {
+    display: none;
+}
+
+.frequency .custom-checkbox-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 24px;
+    font-family: 'Comfortaa', sans-serif;
+    position: relative;
+}
+
+.frequency .custom-checkbox-label .unchecked,
+.custom-checkbox-label .checked {
+    display: none;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.frequency .custom-checkbox-label .unchecked {
+    display: inline-block;
+}
+
+.frequency .custom-checkbox:checked + .custom-checkbox-label .unchecked {
+    display: none;
+}
+
+.frequency .custom-checkbox:checked + .custom-checkbox-label .checked {
+    display: inline-block;
+}

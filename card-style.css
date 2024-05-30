@@ -1,0 +1,303 @@
+@font-face {
+    font-family: 'PatsySans';
+    src: url('../fonts/PatsySans.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Pribambas';
+    src: url('../fonts/Pribambas.ttf') format('truetype');
+}
+
+body {
+    font-family: "Comfortaa", sans-serif;
+    font-style: normal;
+    font-size: 24px;
+
+    background-color: #F7FBFE;
+    justify-content: center; 
+}
+
+header {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    justify-content: center; 
+}
+
+nav {
+    font-family: 'Pribambas', sans-serif;
+    display: flex;
+}
+
+p {
+    line-height: 150%;
+    margin: 0;
+}
+
+a {
+    color: black;
+    text-decoration: none;}
+
+h1 {
+    font-family: 'PatsySans', sans-serif;
+    font-size: 64px;
+    font-weight: normal;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Pribambas', sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    width: 40px;
+    image-color: white;
+}
+
+.logo a {
+    font-family: 'PatsySans', sans-serif;
+    font-size: 47px;
+    margin-left: 30px;
+    color: black;
+}
+
+header nav {
+    padding-left: 350px;
+    padding-top: 10px;
+}
+
+header nav a {
+    padding-right: 62px;
+    font-size: 32px; 
+}
+
+header nav a:last-child {
+    padding: 0;
+}
+
+
+button {
+    background: #9FB840;
+    border: 0;
+    font-family: 'Pribambas', sans-serif;
+    font-size: 48px;
+    color: black; 
+    cursor: pointer; 
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+button img {
+    height: 30px;
+    width: 32px;
+}
+
+button:hover {
+    background-color: #C4DB6F;
+    font-size: 51px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+    margin-top: 90px;
+}
+
+.info img {
+    border-radius: 35px;
+}
+
+.info h1{
+    width: 650px;
+    margin-bottom: 30px;
+}
+
+.txt .metric {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 32px;
+}
+
+.txt .metric .small {
+    font-size: 32px;
+}
+
+.metric .pol {
+    width: 110px;
+}
+
+.metric .breed, .age {
+    width: 245px;
+}
+
+.info .take {
+    width: 650px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.info .take p {
+    margin-bottom: 15px;
+}
+
+.info .link {
+    width: 650px;
+    height: 100px;
+    border-radius: 20px;
+
+    background-color: #D2E1E9;
+
+    margin-top: 20px;
+
+}
+
+.info .link a {
+    color: #9AB9C9;
+    margin-bottom: 15px;
+}
+
+.info .link:hover {
+    background-color: #C4DB6F;
+    color: black;
+}
+
+.info .link a:hover {
+    color: black;
+}
+
+.story {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+    margin-top: 60px;
+}
+
+.story h1 {
+    margin-bottom: 10px;
+}
+
+.story img {
+    border-radius: 35px;
+}
+
+.story p {
+    width: 785px;
+    margin-bottom: 10px;
+}
+
+.story .take {
+    width: 785px;
+    height: 100px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.story .take p {
+    margin-bottom: 15px;
+} 
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #9AB9C9;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 155px;
+}
+
+footer .logo {
+    display: flex;
+    gap: 14px;
+
+    color: black;
+
+}
+
+footer .logo h1 {
+    font-size: 42px;
+}
+
+footer p, ul {
+    font-family: 'Pribambas', sans-serif;
+    font-size: 32px;
+}
+
+footer .logo img {
+    width: 52px;
+    height: 40px;
+
+    margin-top: 5px;
+}
+
+footer .media {
+    margin-top: 30px;
+}
+ 
+footer .media img{
+    margin-right: 35px;
+}
+
+footer .menu {
+
+
+    margin-left: 94px;
+
+    display: flex;
+}
+
+footer .menu li {
+    margin-bottom: 15px;
+}
+
+footer .menu ul:last-child {
+    margin-left: 32px;
+}
+
+footer .contact p {
+    font-family: 'Pribambas', sans-serif;
+    font-size: 32px;
+
+    margin-bottom: 4px;
+}
+
+footer .contact {
+    margin-bottom: 11px;
+    margin-left: 75px;
+}
+
+footer .work {
+    text-align: right;
+    margin-left: 80px;
+    margin-bottom: 19px;
+}
+
+footer .work .adress {
+    margin-bottom: 4px;
+}
